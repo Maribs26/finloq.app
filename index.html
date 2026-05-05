@@ -89,9 +89,29 @@
     }
 
     footer {
-      padding: 20px;
+      padding: 40px 20px;
       font-size: 0.9rem;
       color: #94a3b8;
+      border-top: 1px solid #334155;
+    }
+
+    .footer-links {
+      margin-bottom: 20px;
+    }
+
+    .footer-links a {
+      color: #22c55e;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .copyright {
+      margin-top: 20px;
+      color: #64748b;
     }
   </style>
 </head>
@@ -138,7 +158,14 @@
 </section>
 
 <footer>
-  © 2026 Finloq. All rights reserved.
+  <div class="footer-links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="#">Terms of Service</a>
+    <a href="mailto:support@finloq.app">Contact</a>
+  </div>
+  <div class="copyright">
+    © 2026 Finloq. All rights reserved.
+  </div>
 </footer>
 
 </body>
