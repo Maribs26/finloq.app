@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — Finloq</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Get help with Finloq. Access support resources, FAQs, and contact our team.">
+  <meta name="keywords" content="support, help, contact, FAQ, customer service">
+  <meta name="author" content="Finloq">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Support — Finloq">
+  <meta property="og:description" content="Get help with Finloq. Access support resources, FAQs, and contact our team.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://finloq.app/support">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #fff;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      border-bottom: 1px solid #334155;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0 0 10px 0;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #94a3b8;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background: #0f172a;
+      border-bottom: 1px solid #334155;
+    }
+
+    nav a {
+      color: #22c55e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    .support-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
+    .support-card {
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 10px;
+      border: 1px solid #334155;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .support-card:hover {
+      border-color: #22c55e;
+      transform: translateY(-5px);
+    }
+
+    .support-card h3 {
+      font-size: 1.3rem;
+      margin-top: 15px;
+      color: #22c55e;
+    }
+
+    .support-card p {
+      color: #cbd5f5;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .support-card a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #22c55e;
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .support-card a:hover {
+      background: #16a34a;
+    }
+
+    .faq-section {
+      margin-top: 50px;
+    }
+
+    .faq-section h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #fff;
+      text-align: center;
+    }
+
+    .faq-item {
+      background: #1e293b;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border-left: 4px solid #22c55e;
+    }
+
+    .faq-item h4 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #22c55e;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .faq-item h4:hover {
+      text-decoration: underline;
+    }
+
+    .faq-item p {
+      color: #cbd5f5;
+      line-height: 1.6;
+      margin: 0;
+      display: none;
+    }
+
+    .faq-item.active p {
+      display: block;
+    }
+
+    footer {
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #94a3b8;
+      border-top: 1px solid #334155;
+      margin-top: 50px;
+    }
+
+    .footer-links {
+      margin-bottom: 20px;
+    }
+
+    .footer-links a {
+      color: #22c55e;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .copyright {
+      margin-top: 20px;
+      color: #64748b;
+    }
+
+    .icon {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="/">← Back to Home</a>
+  <a href="mailto:support@finloq.app">Email Support</a>
+</nav>
+
+<header>
+  <h1>Support Center</h1>
+  <p>We're here to help you get the most out of Finloq</p>
+</header>
+
+<div class="container">
+
+  <section class="support-grid">
+    <div class="support-card">
+      <div class="icon">📧</div>
+      <h3>Email Support</h3>
+      <p>Have a question? Reach out to our support team directly via email.</p>
+      <a href="mailto:support@finloq.app">Send Email</a>
+    </div>
+
+    <div class="support-card">
+      <div class="icon">📱</div>
+      <h3>App Help</h3>
+      <p>Learn how to use Finloq features and get the most out of your finance tracking.</p>
+      <a href="#faq">View FAQ</a>
+    </div>
+
+    <div class="support-card">
+      <div class="icon">🔒</div>
+      <h3>Privacy & Security</h3>
+      <p>Learn about how we protect your financial data and your privacy rights.</p>
+      <a href="privacy.html">Read Policy</a>
+    </div>
+  </section>
+
+  <section class="faq-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item active">
+      <h4>❓ How do I get started with Finloq?</h4>
+      <p>Simply download the Finloq app from your device's app store (Android or iOS), create an account, and start tracking your income and expenses. The app is designed to be intuitive, so you can begin logging transactions within minutes. No accounting knowledge required!</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>❓ Is my financial data secure?</h4>
+      <p>Yes. Finloq prioritizes your privacy and security. Your financial data is encrypted and stored securely. We never share your information with third parties without your consent. For more details, please review our Privacy Policy.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>❓ Can I use Finloq for multiple businesses?</h4>
+      <p>Yes! Finloq allows you to create separate ledgers for different business entities or projects. Simply add new accounts or businesses within the app settings, and manage them all from one place.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>❓ What happens if I forget my password?</h4>
+      <p>You can reset your password using the "Forgot Password" option on the login screen. Enter your email address, and we'll send you a secure link to create a new password. If you don't receive the email, check your spam folder or contact support.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>❓ Can I export my financial data?</h4>
+      <p>Yes. Finloq allows you to export your ledger data in multiple formats (CSV, PDF) for use with accountants, bookkeepers, or other financial software. Simply navigate to the export section in your app settings.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>❓ Do you offer customer support via phone?</h4>
+      <p>Currently, we offer support via email at support@finloq.app. Our team typically responds within 24 hours. For urgent matters, please include "URGENT" in your subject line.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>❓ Is Finloq free?</h4>
+      <p>Finloq offers a free tier with essential features for tracking income and expenses. Premium features and higher limits are available with our paid subscription plans. Visit the app for pricing details.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>❓ How often should I update the app?</h4>
+      <p>We recommend keeping Finloq updated to the latest version for security improvements and new features. Enable automatic updates in your app store settings for a seamless experience.</p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="support.html">Support</a>
+    <a href="mailto:support@finloq.app">Contact</a>
+  </div>
+  <div class="copyright">
+    © 2026 Finloq. All rights reserved.
+  </div>
+</footer>
+
+<script>
+  // Make FAQ items toggleable
+  document.querySelectorAll('.faq-item h4').forEach(header => {
+    header.addEventListener('click', function() {
+      const item = this.parentElement;
+      const isActive = item.classList.contains('active');
+      
+      // Close all FAQ items
+      document.querySelectorAll('.faq-item').forEach(faq => {
+        faq.classList.remove('active');
+      });
+      
+      // Open the clicked item if it wasn't active
+      if (!isActive) {
+        item.classList.add('active');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
